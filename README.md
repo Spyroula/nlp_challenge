@@ -11,7 +11,7 @@ nlp_project
 │   └── Dockerfile          # Docker container configuration
 ├── configs                 # Configuration files
 │   ├── config.py           # Main configuration file
-│   └── __init__.py         # Initialization file for configs module
+│   └── __init__.py         
 ├── data                    # Data directory
 │   └── labeled_data.csv    # Labeled dataset
 ├── datahandler             # Module for data loading and preprocessing
@@ -19,9 +19,9 @@ nlp_project
 │   └── datahandler.py      # Handles data loading and cleaning
 ├── executor                # Execution logic for training and prediction
 │   ├── __init__.py
-│   └── train_executor.py   # Orchestrates the training process
+│   └── train_executor.py   # Manage the training process
 ├── logs                    # Log files directory
-├── models                  # Trained model storage
+├── models                  # Trained model folder
 │   └── best_model.pt       # Best model saved after training
 ├── trainer                 # Training logic and model definition
 │   ├── __init__.py
@@ -32,7 +32,7 @@ nlp_project
 │   └── logger.py           # Custom logger for logging across the project
 ├── README.md               # Project overview and documentation
 ├── Pipfile                 # Pipenv file listing package dependencies
-└── Pipfile.lock            # Lock file to ensure deterministic builds
+└── Pipfile.lock            
 ```
 
 ## Installation
