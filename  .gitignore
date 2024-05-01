@@ -134,12 +134,7 @@ dmypy.json
 # VSCode
 .vscode/
 
-# Data files
-data/
-models/
-
-# Log files
-logs/
+.DS_Store
 
 # Docker config
 docker-compose.override.yml
