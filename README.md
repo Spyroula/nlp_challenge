@@ -22,7 +22,7 @@ nlp_project
 │   └── train_executor.py   # Manage the training process
 ├── logs                    # Log files directory
 ├── models                  # Trained model folder
-│   └── best_model.pt       # Best model saved after training
+│   └── best_model.pt       # Mock model
 ├── trainer                 # Training logic and model definition
 │   ├── __init__.py
 │   ├── model.py            # Model architecture
@@ -73,6 +73,7 @@ You can test the API by sending a POST request with some sample text. Here is ho
    ```bash
    curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"text":"hobbies include fighting Mariam bitch"}'
    ```
+### NOTE: The best_model.pt file is empty. In order to run the Flask app you need to train the model by running the train_executor.py script. 
 
 ### Docker Container 
 To build and run the Docker container:
